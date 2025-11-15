@@ -57,6 +57,10 @@ nav a:hover {
   background-color: #ff3333;
   color: white;
 }
+.header {
+  background: red;
+}
+
 
 .back-to-top {
   position: absolute;
@@ -95,5 +99,19 @@ section, article {
   transform: rotate(45deg);
 
   -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+body {
+  background: #362a2a;
+}
+
+.header {
+  color: white;
+  padding: 20px;
+}
+
+/* vendor prefix залишився, бо він необов’язковий */
+.blur-box {
   backdrop-filter: blur(10px);
 }
